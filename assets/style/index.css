@@ -1,0 +1,30 @@
+@charset "utf-8";
+@import "reset.css";
+
+.container {
+  width: min(100% - 30px, 1080px);
+  padding: 10px;
+  top: 5px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+}
+
+.nav {
+  
+}
+
+.login {
+  background-color: rgb(13, 123, 232);
+  color: white;
+  padding:2px 5px; 
+  border-radius: 8px;
+}
