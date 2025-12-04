@@ -6,6 +6,10 @@
     <meta name="author" content="daniel zhang">
     <meta name="description" content="My first web page">
     <meta name="keywords" content="HTML, CSS, Web, Web Development, JavaScript">
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0-beta.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css" type="text/css">
     <link rel="stylesheet" href="./assets/style/index.css" media="all">
     <script src="./assets/script/app.js" defer></script>
     <link rel="icon" href="./assets/media/favicon.png?v=2" type="image/x-icon"> 
@@ -32,7 +36,7 @@
       <button id="trackbtn" class="track">Track YOUR Location</button>
     </section>
 
-    <div id="map"></div>
+    <div id="map" class="map"></div>
   </main>
   </body>
 </html>
