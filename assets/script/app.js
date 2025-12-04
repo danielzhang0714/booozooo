@@ -44,8 +44,11 @@ function displayPosition() {
 
 const trackbtn = document.getElementById('trackbtn');
 const mapdisplay = document.querySelector('.map');
+const control = document.querySelector('.control');
 
 trackbtn.addEventListener('click', () => {
   mapdisplay.classList.add('visible');
+  control.classList.remove('control');
+  trackbtn.innerText = 'Are you Scared?';
   displayPosition();
 });

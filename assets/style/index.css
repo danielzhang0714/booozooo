@@ -69,6 +69,12 @@ header {
   line-height: 1.5;
 }
 
+.control {
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
+
 .track {
   background-color: #bc39be;
   padding: 10px 20px;
@@ -96,6 +102,7 @@ header {
   border-radius: 10px;
   overflow: hidden;
   margin-top: 30px;
+  pointer-events: none;
 }
 
 .visible {
