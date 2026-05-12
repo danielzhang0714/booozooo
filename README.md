@@ -34,13 +34,3 @@ This project was created to practice basic front-end development skills, includi
 - Custom favicon support
 - Organized project folders for assets, styles, scripts, and media
 
----
-
-## Screenshots
-
-### Web Page Preview
-
-> Add a screenshot of the page running in the browser.
-
-```md
-![Iber Landing Page Screenshot](./assets/media/iber-screenshot.png)
